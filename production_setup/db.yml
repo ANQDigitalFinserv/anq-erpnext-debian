@@ -18,7 +18,7 @@ services:
     ports:
       - "3307:3306"
     networks:
-      - frappe_db
+      - swarm_network
 
 volumes:
   mariadb-data-volumes:
