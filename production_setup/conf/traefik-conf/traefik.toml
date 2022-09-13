@@ -18,10 +18,10 @@ exposedByDefault = false
     address = ":443"
         [entryPoints.https.tls]
 
-[acme]
-email = "xanotor@gmail.com"
-storage = "/etc/traefik/acme/acme.json"
-entryPoint = "https"
-onHostRule = true
-    [acme.httpChallenge]
-    entryPoint = "http"
+#[acme]
+#email = "xanotor@gmail.com"
+#storage = "/etc/traefik/acme/acme.json"
+#entryPoint = "https"
+#onHostRule = true
+#    [acme.httpChallenge]
+#    entryPoint = "http"

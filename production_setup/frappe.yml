@@ -16,7 +16,7 @@ services:
     labels:
       - "traefik.enable=true"
       # - "traefik.frontend.rule=Host:example1.com, example2.com" [Separate with comma]
-      - "traefik.frontend.rule=Host:10.1.10.3"
+      - "traefik.frontend.rule=Host:enxt.anq.finance"
       - "traefik.port=80"
       - "traefik.docker.network=traefik_proxy"
     networks:
