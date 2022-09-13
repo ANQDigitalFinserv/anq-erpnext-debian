@@ -11,7 +11,7 @@ services:
       - traefik-certificates-storage-volumes:/etc/traefik/acme
       - traefik-logs-volumes:/etc/traefik/logs
     networks:
-      - traefik_proxy
+      - swarm_network
     configs:
       - source: traefik-conf
         target: /etc/traefik/traefik.toml
